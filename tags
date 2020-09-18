@@ -1,0 +1,38 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+bubbles	css-particle-effects/dist/script.js	/^function bubbles() {$/;"	f
+bubbles	css-particle-effects/src/script.js	/^function bubbles() {$/;"	f
+bubbles	particles/css-particle-effects/dist/script.js	/^function bubbles() {$/;"	f
+bubbles	particles/css-particle-effects/src/script.js	/^function bubbles() {$/;"	f
+confetti	css-particle-effects/dist/script.js	/^function confetti() {$/;"	f
+confetti	css-particle-effects/src/script.js	/^function confetti() {$/;"	f
+confetti	particles/css-particle-effects/dist/script.js	/^function confetti() {$/;"	f
+confetti	particles/css-particle-effects/src/script.js	/^function confetti() {$/;"	f
+fire	css-particle-effects/dist/script.js	/^function fire() {$/;"	f
+fire	css-particle-effects/src/script.js	/^function fire() {$/;"	f
+fire	particles/css-particle-effects/dist/script.js	/^function fire() {$/;"	f
+fire	particles/css-particle-effects/src/script.js	/^function fire() {$/;"	f
+hearts	css-particle-effects/dist/script.js	/^function hearts() {$/;"	f
+hearts	css-particle-effects/src/script.js	/^function hearts() {$/;"	f
+hearts	particles/css-particle-effects/dist/script.js	/^function hearts() {$/;"	f
+hearts	particles/css-particle-effects/src/script.js	/^function hearts() {$/;"	f
+initparticles	css-particle-effects/dist/script.js	/^function initparticles() {$/;"	f
+initparticles	css-particle-effects/src/script.js	/^function initparticles() {$/;"	f
+initparticles	particles/css-particle-effects/dist/script.js	/^function initparticles() {$/;"	f
+initparticles	particles/css-particle-effects/src/script.js	/^function initparticles() {$/;"	f
+jQuery.rnd	css-particle-effects/dist/script.js	/^jQuery.rnd = function(m,n) {$/;"	f
+jQuery.rnd	css-particle-effects/src/script.js	/^jQuery.rnd = function(m,n) {$/;"	f
+jQuery.rnd	particles/css-particle-effects/dist/script.js	/^jQuery.rnd = function(m,n) {$/;"	f
+jQuery.rnd	particles/css-particle-effects/src/script.js	/^jQuery.rnd = function(m,n) {$/;"	f
+lines	css-particle-effects/dist/script.js	/^function lines() {$/;"	f
+lines	css-particle-effects/src/script.js	/^function lines() {$/;"	f
+lines	particles/css-particle-effects/dist/script.js	/^function lines() {$/;"	f
+lines	particles/css-particle-effects/src/script.js	/^function lines() {$/;"	f
+sunbeams	css-particle-effects/dist/script.js	/^function sunbeams() {$/;"	f
+sunbeams	css-particle-effects/src/script.js	/^function sunbeams() {$/;"	f
+sunbeams	particles/css-particle-effects/dist/script.js	/^function sunbeams() {$/;"	f
+sunbeams	particles/css-particle-effects/src/script.js	/^function sunbeams() {$/;"	f

@@ -1,0 +1,64 @@
+<!DOOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Rebecca and Alexander</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" charset="utf-8"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <style type="text/css">
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #333;
+  color: #ccc;
+  display: flex;
+  flex-flow: column nowrap;
+  font-family: Lobster;
+  width: 100vw;
+  height: 100vh;
+  font-size: 15vh;
+  justify-content: center;
+  align-items: center;
+  background:
+      linear-gradient(217deg, rgba(180,0,0,.8), rgba(180,0,0,0) 70.71%),
+      linear-gradient(127deg, rgba(0,180,0,.8), rgba(0,180,0,0) 70.71%),
+      linear-gradient(336deg, rgba(0,0,180,.8), rgba(0,0,180,0) 70.71%);
+  background-size: 200% 200%;
+  animation: gradient 25s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: center center;
+  }
+  20% {
+    background-position: left top;
+  }
+  40% {
+    background-position: right top;
+  }
+  60% {
+    background-position: right bottom;
+  }
+  80% {
+    background-position: left bottom;
+  }
+  100% {
+    background-position: center center;
+  }
+}
+div {
+  text-shadow: 2px 2px 2px black;
+}
+
+    </style>
+  </head>
+  <body>
+    <div class="name">Rebecca</div>
+    <div class="name">&</div>
+    <div class="name">Alexander</div>
+  </body>
+</html>
