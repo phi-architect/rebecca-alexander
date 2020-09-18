@@ -12,16 +12,12 @@
   padding: 0;
 }
 body {
-  background: #333;
+  /*position: absolute;*/
   color: #ccc;
-  display: flex;
-  flex-flow: column nowrap;
   font-family: Lobster;
   width: 100vw;
   height: 100vh;
   font-size: 15vh;
-  justify-content: center;
-  align-items: center;
   background:
       linear-gradient(217deg, rgba(180,0,0,.8), rgba(180,0,0,0) 70.71%),
       linear-gradient(127deg, rgba(0,180,0,.8), rgba(0,180,0,0) 70.71%),
@@ -53,12 +49,97 @@ body {
 div {
   text-shadow: 2px 2px 2px black;
 }
+section {
+  background: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+#date {
+  animation: date 25s ease infinite;
+}
+@keyframes date {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  33% {
+    opacity: 100%;
+  }
+  63% {
+    opacity: 100%;
+  }
+  66% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+#names {
+  animation: names 25s ease infinite;
+}
+@keyframes names {
+  0% {
+    opacity: 0%;
+  }
+  60% {
+    opacity: 0;
+  }
+  63% {
+    opacity: 100%;
+  }
+  99% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+#greeting {
+  animation: greeting 25s ease infinite;
+}
+@keyframes greeting {
+  0% {
+    opacity: 0%;
+  }
+  3% {
+    opacity: 100%;
+  }
+  30% {
+    opacity: 100%;
+  }
+  33% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 
     </style>
   </head>
   <body>
+    <section id="greeting">
+      <div>Happy</div>
+      <div>Day!</div>
+    </section>
+    <section id="date">
+      <div>September 9</div>
+      <div>2020</div>
+    </section>
+    <section id="names">
     <div class="name">Rebecca</div>
     <div class="name">&</div>
     <div class="name">Alexander</div>
+    </section>
   </body>
 </html>
